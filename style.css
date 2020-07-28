@@ -1,0 +1,170 @@
+/* for first page */
+body {
+    background-image: url('background.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+/* for top head */
+.wrapper {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel', serif;
+font-family: 'Roboto Slab', serif;
+}
+.wrapper h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+    color: white;
+    text-shadow: 5px 5px 10px #03e9f4;
+    font-weight: bold;
+}
+.text:before {
+    content: '';
+    animation: animate infinite 4s;
+}
+@keyframes animate{
+    0%{
+        content: "Home";
+    }
+    100%{
+        content: 'Safe';
+    }
+
+}
+
+/*for year line */
+
+.makeself {
+    font-family: 'Libre Baskerville', serif;
+        text-align: center;
+        transform: translate(-50%, -50%); 
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        padding: 20px 0;
+        /* font-size: 70px; */
+        color: white;
+        text-shadow: 0 0 20px #ff005b;
+        word-spacing: 15px;
+        letter-spacing: 5px;
+          
+    }
+
+
+/* for click button */
+ 
+.button a{
+    position: absolute;
+    top: 55%;
+    left: 43%;
+    font-size: 25px;
+    font-weight: bold;
+    background: #03e9f4; 
+    padding: 25px 25px;
+     margin: 30px 0; 
+     transition: 0.5s; 
+    letter-spacing: 4px;
+    color: navy;
+    text-decoration: none;
+    box-shadow:  0 0 5px #03e9f4,
+                 0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+    
+    
+   
+}
+
+.button a:hover {
+    
+   background: #ff005b;
+   color: black;
+    box-shadow: 0 0 5px #ff005b,
+                0 0 25px #ff005b,
+                0 0 50px #ff005b,
+                0 0 200px #ff005b;
+     
+}
+
+
+/* footer part */
+.last {
+    top: 94%;
+    position: absolute;
+    color: white;
+    left: 40%;
+}
+.name {
+    color: tomato;
+    font-size: 20px;
+    text-shadow: 0px 4px 7px crimson;
+}
+
+.year {
+    font-size: 10px;
+}
+
+/* font awesome coloring and set */
+.social-menu ul {
+    position: absolute;
+    top: 89%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.social-menu ul li .fa {
+    color: black;
+    font-size: 25px;
+     line-height: 50px; 
+    transition: .5s;
+}
+.social-menu ul li .fa:hover {
+    color: #ffffff;
+}
+
+.social-menu ul li a {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 10px black;
+}
+
+.social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+
+.social-menu ul li:nth-child(2) a:hover {
+     background-color: blue;
+}
+.social-menu ul li:nth-child(1) a:hover {
+    background-image: linear-gradient(180deg, #e4405f, skyblue);
+}
+
+
+
+
+ 
+
+
+
+

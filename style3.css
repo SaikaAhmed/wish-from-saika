@@ -1,0 +1,35 @@
+body{
+   background-image: url("background.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    font-family: 'Dosis', sans-serif;
+font-family: 'Play', sans-serif;
+  
+}
+hr{
+    background: white;	
+}
+/* for head */
+.contact-form h1 {
+    text-shadow: 5px 5px 10px cyan;
+
+}
+.contact-form{
+    background:rgba(0,0,0, .6); 
+    color:white;
+    margin-top: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 3px grey;
+    margin-bottom: 30%;
+}
+.form-group {
+    font-size: 20px;
+    text-shadow: 3px 3px 8px crimson;
+}
+/*send btn*/
+.form-group .btn {
+    font-size: 20px;
+    text-shadow: 3px 3px 8px crimson;
+}
+
+

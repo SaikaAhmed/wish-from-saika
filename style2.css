@@ -1,27 +1,25 @@
-
-body {
+  body {
     font-family: 'Cinzel', serif;
     padding: 0;
     margin: 0; 
-    height: 100vh; 
-     background: black;  
-      width: 100%;  
-      /* box-sizing: border-box; */
-   }  
-
+     height: 100vh;    
+    background: black; 
+    width: 100%;
+}
 /*for smoking color set */
-section::before {
+section:before {
     content: '';
     position: absolute;
-     background: linear-gradient(to right, firebrick,  blue, gold, hotpink, maroon, white); 
-     width: 100%; 
-    height: 100vh; 
+    background: linear-gradient(to right, firebrick,  blue, gold, hotpink, maroon, black), firebrick;
+    width: 100%;
+     height: 100vh; 
     top: 0;
-    left: 0;  
+    left: 0;
     mix-blend-mode: color;
+     
 }
 
-/*text set*/
+/* text set */
 h1 {
     color: tomato;
     font-size: 70px; 
@@ -29,7 +27,7 @@ h1 {
     position: absolute;
     top: 40%;
     transform: translateY(-40%);
-    text-align: center; 
+    text-align: center;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -56,9 +54,9 @@ h1 span {
 }
 
 video {
-    height: 80vh;
-     width: 100%;
-    object-fit: cover; 
+    height: 100vh; 
+    width: 100%;
+    object-fit: cover;
 }
 
 
@@ -97,7 +95,7 @@ h1 span:nth-child(11){
 }
 
 /*for button*/
-  .button a{
+.button a{
     display: inline-block;
     font-size: 25px;
     /* background: #ff005b;  */
@@ -107,11 +105,8 @@ h1 span:nth-child(11){
     letter-spacing: 4px;
     color: #15f4ee;
     text-decoration: none;
-    position: absolute;
-    bottom: 30%; 
-    left: 42%;
     border-radius: 100px;
-    transition: 1.5s;
+    transition: 1.0s;
     border: 5px solid #15f4ee;
 } 
 
@@ -124,3 +119,9 @@ h1 span:nth-child(11){
                 text-shadow: 0 0 5px #15f4ee;
                
   } 
+
+  .clickbtn {
+    position: absolute; 
+    top: 70%; 
+    left: 42%;
+  }

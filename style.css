@@ -23,7 +23,7 @@ body {
 }
 .text:before {
     content: '';
-    animation: animate infinite 4s;
+    animation: animate infinite 2s;
 }
 @keyframes animate{
     0%{
